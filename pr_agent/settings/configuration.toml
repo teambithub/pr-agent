@@ -5,9 +5,9 @@ model_turbo="gpt-4o-2024-08-06"
 fallback_models=["gpt-4o-2024-05-13"]
 # CLI
 git_provider="github"
-publish_output=true
+publish_output=false
 publish_output_progress=true
-verbosity_level=0 # 0,1,2
+verbosity_level=2 # 0,1,2
 use_extra_bad_extensions=false
 # Configurations
 use_wiki_settings_file=true
@@ -49,6 +49,7 @@ enable_ai_metadata = false # will enable adding ai metadata
 require_score_review=false
 require_tests_review=true
 require_estimate_effort_to_review=true
+require_estimate_time_to_review=true
 require_can_be_split_review=false
 require_security_review=true
 # soc2
